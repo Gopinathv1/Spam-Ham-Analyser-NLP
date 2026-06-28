@@ -5,4 +5,4 @@ df = load_data(r"data\raw\email_spam_dataset.csv")
 
 print(df.head())
 print(df.columns)
-print(df["Category"].value_counts())
+print(df["label"].value_counts())
